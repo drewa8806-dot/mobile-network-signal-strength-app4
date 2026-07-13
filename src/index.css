@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap');
+
+* {
+  font-family: 'Cairo', 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/* كود إخفاء العلامة المائية تماماً */
+div[class*="arena"], 
+iframe[src*="arena"], 
+[id*="arena-badge"], 
+.built-with-arena,
+[content*="arena"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
